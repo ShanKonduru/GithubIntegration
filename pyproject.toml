@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "githubintegration"
+version = "0.1.0"
+description = "python code to integrate and read GitHub APIs"
+authors = ["ShanKonduru <ShanKonduru@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+PyGithub ="^1.59.1"
+python-dateutil = "^2.8.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
