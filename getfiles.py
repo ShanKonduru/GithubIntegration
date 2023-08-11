@@ -1,8 +1,5 @@
 from github import Github
-
-
-# Replace with your GitHub Personal Access Token
-ACCESS_TOKEN = "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" # "YOUR_PERSONAL_ACCESS_TOKEN"
+from const import ACCESS_TOKEN
 
 # Replace with the repository owner and repository name
 REPO_OWNER = "ShanKonduru"

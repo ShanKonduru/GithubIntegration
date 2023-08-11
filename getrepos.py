@@ -3,8 +3,11 @@ from github import Github
 # Authentication is defined via github.Auth
 from github import Auth
 
+from const import ACCESS_TOKEN
+
+
 # using an access token
-auth = Auth.Token("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")
+auth = Auth.Token(ACCESS_TOKEN)
 
 # First create a Github instance:
 
