@@ -1,1 +1,3 @@
-ACCESS_TOKEN="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"
+ACCESS_TOKEN="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"
+REPO_OWNER = "ShanKonduru"
+REPO_NAME = "PostmanCollectionTestcaseExtractor"

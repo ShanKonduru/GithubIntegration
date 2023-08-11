@@ -1,9 +1,5 @@
 from github import Github
-from const import ACCESS_TOKEN
-
-# Replace with the repository owner and repository name
-REPO_OWNER = "ShanKonduru"
-REPO_NAME = "PostmanCollectionTestcaseExtractor"
+from const import ACCESS_TOKEN,REPO_OWNER,REPO_NAME
 
 # Replace with the two commit SHAs you want to compare
 COMMIT_SHA_1 = "24c1047766e87177ecdfd576265c1b909fd934cc"
