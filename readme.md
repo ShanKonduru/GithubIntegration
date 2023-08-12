@@ -26,26 +26,17 @@ python-dateutil (>=2.8.2)
 ### getallcommits.py
 Description: Script to retrieve all commits from a GitHub repository.
 
-Usage: Replace placeholders with your repository details.
-
 ### getcommitsbetweendates.py
 Description: Script to retrieve commits between specified dates from a GitHub repository.
-
-Usage: Replace placeholders with your repository details and date range.
 
 ### getcommitsforafile.py
 Description: Script to retrieve commits for a specific file within a date range from a GitHub repository.
 
-Usage: Replace placeholders with your repository details, file path, and date range.
-
 ### getfiles.py
 Description: Script to retrieve the list of files changed in a commit from a GitHub repository.
 
-Usage: Replace placeholders with your repository details and commit SHA.
-
 ### getrepos.py
 Description: Script to retrieve the list of repositories for a GitHub user or organization.
-
 
 ### License
 This project is licensed under the MIT License.
