@@ -12,7 +12,7 @@ Python code to integrate and read GitHub APIs.
 
 You can install the required dependencies using [Poetry](https://python-poetry.org/):
 
-```shell
+```python
 poetry install
 ```
 
@@ -37,6 +37,27 @@ Description: Script to retrieve the list of files changed in a commit from a Git
 
 ### getrepos.py
 Description: Script to retrieve the list of repositories for a GitHub user or organization.
+
+## Execution of Python scripts
+
+### Setup
+Change the following properties before running the script
+```python
+ACCESS_TOKEN="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"
+REPO_OWNER = "ShanKonduru"
+REPO_NAME = "PostmanCollectionTestcaseExtractor"
+```
+
+### USAGE
+In the visual studio code terminal or command window, use the following commands to run each python script file
+
+```python
+python .\getallcommits.py
+python .\getcommitsbetweendates.py
+python .\getcommitsforafile.py
+python .\getfiles.py
+python .\getrepos.py
+```
 
 ### License
 This project is licensed under the MIT License.
